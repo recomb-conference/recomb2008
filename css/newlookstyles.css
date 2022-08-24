@@ -1,0 +1,246 @@
+
+.fortext {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 9px;
+  color: #626262;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.fortext4 {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 9px;
+  color: #626262;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.fortext4b {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 9px;
+  color: #FF0000;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.fortext4c {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 9px;
+  color: #8F8F8F;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.fortext5 {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 9px;
+  color: #626262;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.fortext5b {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 9px;
+  color: #FF0000;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.fortext2 {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 9px;
+  color: #FF0000;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.fortext3 {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 9px;
+  color: #8F8F8F;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.smallertext {
+  font-family: Verdana;
+  font-size: 9px;
+  color: #FF6600;
+}
+
+a.fortext:hover {
+  color: #FF6600;
+  text-decoration: none;
+}
+
+.box1 {
+  position: relative;
+  left: -18px;
+  width: 95px;
+  height: 18px;
+  background-image: url(https://www.comp.nus.edu.sg/images/button_bg.gif);
+  text-align: left;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 11px;
+  font-family: Verdana;
+  text-indent: 5px;
+  line-height: 1.5;
+  background-repeat: no-repeat;
+}
+
+.box2 {
+  width: 100px;
+  height: 18px;
+  background-image: url(https://www.comp.nus.edu.sg/images/button_bg4.gif);
+  text-align: left;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 11px;
+  font-family: Verdana;
+  text-indent: 5px;
+  line-height: 1.5;
+  background-repeat: no-repeat;
+}
+
+.box3 {
+  width: 130px;
+  height: 18px;
+  background-image: url(https://www.comp.nus.edu.sg/images/button_bg3.gif);
+  text-align: left;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 11px;
+  font-family: Verdana;
+  text-indent: 5px;
+  line-height: 1.5;
+  background-repeat: no-repeat;
+}
+
+.box4 {
+  margin-top: 2px;
+  width: 182px;
+  height: 18px;
+  background-image: url(https://www.comp.nus.edu.sg/images/button_bg5.gif);
+  text-align: left;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 12x;
+  font-family: Verdana;
+  text-indent: 5px;
+  line-height: 1.5;
+  background-repeat: no-repeat;
+}
+
+.semconf1 {
+  position: absolute;
+  width: 95px;
+  height: 18px;
+  background-image: url(https://www.comp.nus.edu.sg/images/button_bg2.gif);  
+  text-align: left;
+  font-weight: bold;
+  color: #F16108;
+
+  font-size: 11px;    
+  font-family: Verdana;  
+  text-indent: 5px;
+  line-height: 1.5;
+}
+
+.semconf2 {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 95px;
+  width: 95px;
+  height: 18px;
+  background-image: url(https://www.comp.nus.edu.sg/images/button_bg2.gif);  
+  text-align: left;
+  font-weight: bold;
+  color: #F16108;
+  font-size: 11px;    
+  font-family: Verdana;  
+  text-indent: 5px;
+  line-height: 1.5;
+}
+
+a.semconf1:hover, a.semconf1.activeTab {
+  color: #FFFFFF;
+  background-image: url(https://www.comp.nus.edu.sg/images/button_bg.gif);
+  text-decoration: none;
+  outline: none;
+}
+
+
+a.semconf2:hover, a.semconf2.activeTab {
+  color: #FFFFFF;
+  background-image: url(https://www.comp.nus.edu.sg/images/button_bg.gif);
+  text-decoration: none;
+  outline: none;
+}
+
+.forttext {
+  color: #000000;
+  font-size: 0.8em;
+}
+
+div#seminar {
+  margin: 0px 0px 0px 0px;
+  display: block;
+}
+
+div#conf {
+  margin: 0px 0px 0px 0px;
+  display: none;
+}
+
+table.table1 {
+  border: 0;
+  cellspacing: 2;
+  cellpadding: 2;
+}
+
+table.table1 th.style1 {
+  font: bold 11px Verdana;
+  color: #626262;
+  background: #FFFFFF;
+  text-align: left;
+}
+
+table.table1 th.style2 {
+  font: 11px Verdana;
+  color: #FFFFFF;
+  background: #FB904A;
+  text-align: left; 
+}
+
+table.table1 th.style3 {
+  font: bold 11px Verdana;
+  color: #FFFFFF;
+  background: #FB904A;
+  text-align: center; 
+}
+
+table.table1 td {
+  font: 11px Verdana;
+  color: #626262;
+  background: #EFEEEF;
+  text-align: left;
+}
+
+table.table1 a {
+  color: #626262;
+}
+
+a.fortext:hover, a.fortext4:hover, a.fortext5:hover {
+  text-decoration: none;
+  text-align: center;
+}

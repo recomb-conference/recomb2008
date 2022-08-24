@@ -1,0 +1,1065 @@
+<html>
+<head>
+<title>RECOMB2008 - LIST OF ACCECPTED POSTERS</title>
+<link href="css/nusstyles.css" rel="styleSheet" type="text/css">
+<link href="css/newlookstyles.css" rel="styleSheet" type="text/css">
+
+<style type="text/css">
+
+.new_item_sign {
+	color: #FF0000;
+}
+
+
+td.bold_cell {
+font-weight: bold;
+}
+
+td.section_underline_cell {
+background-color: #000000;
+}
+.style1 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+</style>
+
+<script type="text/javascript">
+
+/* SSI to load the menu generator (DO NOT CHANGE) */
+
+function add_menuitem(sectkey, url, title, level) {
+
+var n = menuitems.length;
+
+menuitems[n] = new Array();
+menuitems[n][0] = sectkey;
+menuitems[n][1] = url;
+menuitems[n][2] = title;
+menuitems[n][3] = level;
+
+}
+
+function do_sect_menu(sectkey) {
+
+    var tablepad = 0;
+    var border = 0;
+
+    var document_write = "<table cellspacing=0 cellpadding=" + tablepad + " border=" + border + " width=\"100%\">";
+
+    var n = menuitems.length;
+    for (var i = 0; i < n; i++) {
+
+	var indent = 1;
+	var leftrightpad = tablepad;
+	var cell = 162;
+
+	document_write += "<tr>";
+
+	for (var j = 0; j < menuitems[i][3]; j++) {
+	    document_write += "<td width=" + cell + ">";
+	    cell -= 2 * leftrightpad;
+	    leftrightpad = 0;
+	    document_write += "<table cellspacing=0 cellpadding=0 border=" + border + " width=162><tr>";
+	    cell -= indent;
+	}
+
+	document_write += "<td valign=middle height=25 background=\"images/but_bg3.gif\" style=\"background-repeat: repeat-x\">";
+
+	if (menuitems[i][0] != "" && sectkey == menuitems[i][0]) {
+	    if (cell < 157) {
+		document_write += "<span class=\"fortext5b\">" + menuitems[i][2] + "</span>";
+	    }
+	    else if (cell < 160) {
+		document_write += "<span class=\"fortext4b\">" + menuitems[i][2] + "</span>";
+	    }
+	    else {
+		document_write += "<span class=\"fortext2\">" + menuitems[i][2] + "</span>";
+	    }
+	} else if (menuitems[i][1] != "") {
+	    if (cell < 157) {
+		document_write += "<a href=\"" + menuitems[i][1] + "\" class=\"fortext5\">" + menuitems[i][2] + "</a>";
+	    }
+	    else if (cell < 160) {
+		document_write += "<a href=\"" + menuitems[i][1] + "\" class=\"fortext4\">" + menuitems[i][2] + "</a>";
+	    }
+	    else {
+		document_write += "<a href=\"" + menuitems[i][1] + "\" class=\"fortext\">" + menuitems[i][2] + "</a>";
+            }
+	} else {
+            if (cell < 160) {
+		document_write += "<span class=\"fortext4c\">" + menuitems[i][2] + "</span>";
+	    }
+	    else {
+                document_write += "<span class=\"fortext3\">" + menuitems[i][2] + "</span>";
+	    }
+	}
+
+	document_write += "</td>";
+
+	for (var j = 0; j < menuitems[i][3]; j++) {
+	    document_write += "</tr></table></td>";
+	}
+
+
+	document_write += "</tr>";
+
+    }
+
+document_write += "</table>";
+
+document.write(document_write);
+
+}
+
+
+/* SSI to load the "Links in ..." definitions */
+
+var menuitems = new Array();
+
+add_menuitem("introduction", "index.html", "INTRODUCTION", 0);
+add_menuitem("news", "news.html", "NEWS: RECOMB & GENOME<br>&nbsp; RESEARCH TEAM UP", 0);
+add_menuitem("sponsors", "sponsors.html", "ORGANIZERS AND SPONSORS", 0);
+add_menuitem("speakers", "speakers.html", "KEYNOTE SPEAKERS", 0);
+add_menuitem("committees", "committees.html", "COMMITTEES", 0);
+add_menuitem("cfp", "cfp.html", "CALL FOR PAPERS", 0);
+add_menuitem("submission", "submission.html", "PAPER SUBMISSION", 0);
+add_menuitem("accepted", "accepted.html", "LIST OF ACCEPTED PAPERS", 0);
+add_menuitem("poster", "poster.html", "CALL FOR POSTERS", 0);
+add_menuitem("postersubmission", "postersubmission.html", "POSTER SUBMISSION", 0);
+add_menuitem("acceptedposters", "accp_poster.html", "LIST OF ACCEPTED POSTERS", 0);
+add_menuitem("photos", "http://av.comp.nus.edu.sg/coppermine/thumbnails.php?album=160", "PHOTOS", 0);
+add_menuitem("programme", "programme.html", "PROGRAMME", 0);
+add_menuitem("registration", "registration.html", "REGISTRATION", 0);
+add_menuitem("visa", "visa.html", "VISA INFORMATION", 0);
+add_menuitem("travel", "travel.html", "TRAVEL GRANTS", 0);
+add_menuitem("accommodation", "accommodation.html", "ACCOMMODATION", 0);
+add_menuitem("links", "links.html", "LINKS", 0);
+add_menuitem("singapore", "singapore.html", "UNIQUELY SINGAPORE", 0);
+
+
+
+
+/* Marker of the current page to be shown as highlighted in "Links in ..." menu */
+var sectkey = "acceptedposters";
+
+</script>
+</head>
+<body>
+
+<table width="750" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" style="width:750px;table-layout:fixed">
+
+  <tr> 
+    <td width="1" rowspan=7 background="_images/grey_onepx.gif"><img src="_images/spacer.gif" width="1" height="1"></td>
+    <td width="740">
+    </td>
+    <td valign=bottom width="9" bgcolor="#F2F2F2"><img src="_images/spacer.gif" width="9" height="1"></td>
+  </tr>
+
+  <tr> 
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      </table></td>
+    <td rowspan="6" valign="top" background="_images/bg_right.gif"><img src="_images/spacer.gif" width="9" height="1"></td>
+  </tr>
+
+
+  <tr> 
+    <td valign="top">
+
+<tr>
+  <td>
+<table width="740" height="150" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="571" height="150" align="left" valign="top"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="571" height="150">
+          <param name="movie" value="gif/banner.swf" />
+          <param name="quality" value="high" />
+          <embed src="gif/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="571" height="150"></embed>
+        </object></td>
+        <td width="166" height="150" align="center" valign="bottom"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="166" height="150">
+          <param name="movie" value="gif/right.swf" />
+          <param name="quality" value="high" />
+          <embed src="gif/right.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="166" height="150"></embed>
+        </object></td>
+      </tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td><table cellspacing=0 cellpadding=0 border=0>
+<tr>
+
+
+<td valign=top width=168><table cellspacing=0 cellpadding=0 border=0 width=168>
+
+
+<tr>
+<td>&nbsp;</td>
+</tr>
+
+
+<!-- begin "Links in ..." MENU -->
+<tr>
+<td><table border=0 cellspacing=0 cellpadding=0 width=165>
+<tr>
+<td><div class="box4"><strong>RECOMB 2008</strong></div></td>
+</tr>
+</table></td>
+</tr>
+
+<tr>
+<td><table cellspacing=0 cellpadding=0 border=0 width="162">
+
+<tr>
+<td width=162 style="background-color: #FFFFFF;"><script type="text/javascript"><!--
+do_sect_menu(sectkey);
+//--></script></td>
+</tr>
+
+</table></td>
+
+</tr>
+
+<!-- end "Links in ..." MENU -->
+
+<tr>
+<td>&nbsp;</td>
+</tr>
+
+</table></td>
+
+<td valign=top width="100%" style="padding: 15px;">
+
+
+<table cellspacing=0 cellpadding=0 border=0 width="100%">
+  <tr>
+    <td align=center>
+<table cellspacing=0 cellpadding=0 border=0>
+  <tr>
+    <td colspan="3"><h1>LIST OF ACCECPTED POSTERS</h1>    </td>
+  </tr>
+</table>    </td>
+  </tr>
+</table>
+
+<table width="100%" height="59" border="1" cellpadding="5">
+  <tr>
+    <td bgcolor="#0033CC"><span class="style1">#</span></td>
+    <td bgcolor="#0033CC"><div align="center"><span class="style1">Authors</span></div></td>
+    <td width="47" bgcolor="#0033CC"><div align="center" class="style1">
+      <div align="center">Title</div>
+    </div></td>
+  </tr>
+  <tr>
+    <td width="6%"><div align="left">2</div></td>
+    <td width="47%"><div align="left">Virendra Gomase, Shruti Gomase, Somnath Tagore, Dayanand Bhiwgade, Vaseem Baig and Karbhari Kale. </div></td>
+    <td><div align="left">Computer aided multi parameter antigen design: Impact of synthetic peptide vaccines</div></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td><div align="left">Virendra Gomase, Shruti Gomase, Somnath Tagore, Dayanand Bhiwgade, Vaseem Baig and Karbhari Kale. </div></td>
+    <td>Prediction of MHC binder for fragment based viral peptide vaccines from cabbage leaf curl virus</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Madhu Priyadarshi and Manjusha Verma. </td>
+    <td>Plant DNA fingerprint software</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>David Wood, Mhairi Marshall, Shuzhi Cai, Matthew Bryant and Dominique Gorse. </td>
+    <td>Platform for integrated and accessible bioInformatics</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Susan Tang, Fiona Hyland, Tom Wessel, Jon Sorenson, Heather Peckham and Francisco De La Vega. </td>
+    <td>DiBayes: A SNP detection algorithm for next-generation dibase sequencing</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Yu Xue, Jian Ren, Longping Wen, <br>
+      and Xuebiao Yao</td>
+    <td>GPS 2.0: Prediction of kinase-specific phosphorylation sites in hierarchy</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Jaya Iyer, Arathi Raghunath <br>
+      and Jignesh Bhate. </td>
+    <td>Analyzing the role of CREBBP co-activator in erythroid differentiation --- a literature<br>
+      mining approach</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Lesheng Kong and Alan Christoffels. </td>
+    <td>Large-scale gene duplication detection in Ciona savignyi and Ciona intestinalis</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Thanneer Malai Perumal, Yan Wu and Rudiyanto Gunawan. </td>
+    <td>In silico dynamical analysis of cellular systems: A molecular perturbation approach</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Marta Szachniuk, Marek Blazewicz, <br>
+      Mariusz Popenda and Ryszard Adamiak. </td>
+    <td>On the design of RNA fragments structural database</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Hongseok Tae and Kiejung Park. </td>
+    <td>ASMPKS: an analysis system for modular polyketide synthases</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Saurabh Shukla and Alok Shekhar</td>
+    <td>In-silico analysis of HIV-1 p1 sequence and structure prediction.</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Paul Yoo, Yung Shwen Ho, Bing Zhou and Albert Zomaya. </td>
+    <td>SiteSeek: Protein phosphorylation site predictor using adaptive locality-effective <br>
+      kernel methods and new profiles</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Nandita Das, Vaibhav Navaghare, Vidyendra Sadanandan, Jignesh Bhate and Jaya Iyer. </td>
+    <td>Exploring protein-protein interactions at domain level</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>Sangjukta Kashyap, Nandita Das, Usha Mahadevan and Jignesh Bhate. </td>
+    <td>In-silico disease target screening and evaluation with RNAi data</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>Victor Tomilov, Valery Chernukhin, Murat Abdurashitov, Danila Gonchar and Sergei Degtyarev. </td>
+    <td>Cleavage of mammalian chromosomal DNA by restriction enzymes in silico</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>Murat Abdurashitov, Victor Tomilov, Valery Chernukhin, Danila Gonchar and Sergei Degtyarev. </td>
+    <td>Comparative analysis of human chromosomal DNA digestion with restriction endonucleases in vitro and in silico</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Sebastian Maurer-Stroh, Petra Van Damme, Joost Van Durme, Kim Plasman, Evy Timmerman, Pieter-Jan De Bock, Marc Goethals, Frederic Rousseau, Joost Schymkowitz, Joel Vandekerckhove and Kris Gevaert. </td>
+    <td>Granzyme B cleavage site predictions based on sequence, physical property and structural description of the motif</td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>Javed Khan and Shoba Ranganathan. </td>
+    <td>A multi-species comparative structural bioinformatic analysis of inherited mutations in &alpha;-D-mannosidase</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Diane Simarmata, Joo Chuan Tong, Philippe Kourilsky and Lisa F P Ng. </td>
+    <td>Large-scale analysis and screening of Chikungunya virus T-cell epitopes</td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>Shunsuke Kamijo, Akihiko Fujii, Kenji Onodera, Kenichi Wakabayashi, Takatsugu Kobayashi and Kensaku Sakamoto. </td>
+    <td>Statistical analysis of KMSKS motif in aminoacyl-tRNA synthetase by building <br>
+      a library of random sequences</td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>Jacek Blazewicz, Marcin Bryja, Marek Figlerowicz, Piotr Gawron, Marta Kasprzak, Darren Platt, Jakub Przybytek, Aleksandra Swiercz and Lukasz Szajkowski. </td>
+    <td>Whole genome assembly from 454 sequencing output</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>Hongseok Tae and Ki Jung Park.</td>
+    <td>ConView: An easy and fast visualization tool for contig assembly</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Bhakti Bhagwat, Santosh Atanur, Sunitha Manjari Kasibhatla and Rajendra Joshi.</td>
+    <td>Deciphering functional linkages between Mycobacterium tuberculosis H37Rv proteins via Gene Ontology Similarity scores</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>Bruno Schwenk, Joachim Selbig and Matthias Holschneider. </td>
+    <td>Planes in 3-dimensional metabolite triplet data: A robust Bayesian approach</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>Tara Hessa, Nadja M. Meindl-Beinker, Andreas Bernsel, Hyun Kim, Yoko Sato, Mirjam Lerch-Bader, IngMarie Nilsson, Stephen H. White and Gunnar von Heijne</td>
+    <td>Deciphering transmembrane helix recognition by the ER translocon</td>
+  </tr>
+  <tr>
+    <td>31</td>
+    <td>Jens-Uwe Krause, Juergen Kleffe</td>
+    <td>BACOLAP: BAC assembly based on bit-vectors</td>
+  </tr>
+  <tr>
+    <td>32</td>
+    <td><p>Rohit Reja, Venkata Krishnan AJ, Sandeep Kumar Yelakanti,  Vishal Kumar Nangla, Umesh Roy, Rajib Bandopadhyay, Prashanth Suravajhala.</p></td>
+    <td><p>Host Pathogenesis and Lateral Gene Transfer Revisited:  Challenges to Evolution</p></td>
+  </tr>
+  <tr>
+    <td>33</td>
+    <td>Duangdao Wichadakul, Supawadee Ingsriswang, Eakasit Pacharawongsakda, Boonyarat Phadermrod and Sunai Yokwai. </td>
+    <td>ATGC-Dom: Alignment, tree, and graph for comparative proteomes by domain architecture</td>
+  </tr>
+  <tr>
+    <td>34</td>
+    <td>Guimei Liu, Jinyan Li, Suryani Lukman and Limsoon Wong. </td>
+    <td>Predicting protein interactions using interacting motif pairs</td>
+  </tr>
+  <tr>
+    <td>36</td>
+    <td>Jacek Blazewicz, Edmund Burke, Marta Kasprzak, Alexandr Kovalev and Mikhail Y. Kovalyov. </td>
+    <td>Dynamic programming and approximation algorithms for the Simplified Partial Digest Problem</td>
+  </tr>
+  <tr>
+    <td>37</td>
+    <td>Yew Chung Tang, Gregory Stephanopoulos and Heng-Phon Too. </td>
+    <td>Information-theoretic analysis for exploring cell death-survival signaling networks</td>
+  </tr>
+  <tr>
+    <td>38</td>
+    <td>Marta Szachniuk, Mariusz Popenda, <br>
+      Lukasz Popenda and Jacek Blazewicz. </td>
+    <td>Constructing transfer pathways in multidimensional NMR spectra of RNAs</td>
+  </tr>
+  <tr>
+    <td>39</td>
+    <td>Bo Kim, Bruce Tidor and Jacob White. </td>
+    <td>Robust optimization for biological network calibration</td>
+  </tr>
+  <tr>
+    <td>40</td>
+    <td>Pablo Carbonell and Antonio del Sol Mesa. </td>
+    <td>Specificity and affinity in protein-protein interactions: From a systems biology to a <br>
+      molecular point of view</td>
+  </tr>
+  <tr>
+    <td>41</td>
+    <td>Difeng Dong and Limsoon Wong. </td>
+    <td>Using gene expression analysis for drug pathway identification: An example on <br>
+      nasopharyngeal carcinoma (NPC)</td>
+  </tr>
+  <tr>
+    <td>42</td>
+    <td>Geoffrey Koh, David Hsu and PS Thiagarajan. </td>
+    <td>Composition of signaling pathway models and its application to parameter estimation</td>
+  </tr>
+  <tr>
+    <td>43</td>
+    <td>Kazuo Iida, Takako Takai-Igarashi, <br>
+      Daiya Takai and Hiroshi Tanaka. </td>
+    <td>Knowledge-based pathway optimization strategy for gene expression profiling analysis</td>
+  </tr>
+  <tr>
+    <td>44</td>
+    <td>Yulia Medvedeva, Marina Fridman, Nina Oparina, Dmitri Malko, Ekaterina Ermakova, Ivan Kulakovsky and Vsevolod Makeev. </td>
+    <td>Reduced CpG mutation rate suggests functional role of intragenic and 3&rsquo; CpG islands in human genes</td>
+  </tr>
+  <tr>
+    <td>45</td>
+    <td>Saboura Ashkevarian, Armin Madadkar Sobhani and Bahram Goliaei. </td>
+    <td>Structural modeling of MaSp1 and MaSp2 proteins of dragline silk in Latrodectus hesperus</td>
+  </tr>
+  <tr>
+    <td>46</td>
+    <td>Tal Shay, Wanyu L. Lambiv , Anastasia Murat , Eugenia Migliavacca , Roger Stupp, Monika E. Hegi and Eytan Domany . </td>
+    <td>More is not always more &ndash; when does DNA amplification affect gene expression?</td>
+  </tr>
+  <tr>
+    <td>47</td>
+    <td>Kyungsook Kim, Mira Oh, Jangsun Baek and Young Sook Son. </td>
+    <td>Missing Values Estimation for DNA Microarray Gene Expression Data: SPLS</td>
+  </tr>
+  <tr>
+    <td>48</td>
+    <td>Vladimir Kuznetsov and Leonard Lipovich. </td>
+    <td>Analysis of the human cis-antisense transcription: primate-specific exonic sequences, structure-dependent sense-antisense co-expression, and functionally restricted noncoding-RNA transcription</td>
+  </tr>
+  <tr>
+    <td>49</td>
+    <td>Rajeev Kumar, Manmath Routray and Febin Dass. </td>
+    <td>HIV-1 Protease inhibitor comparative docking studies of synthetic and natural compounds</td>
+  </tr>
+  <tr>
+    <td>50</td>
+    <td>Andrea Sackmann, Piotr Formanowicz <br>
+      and Jacek Blazewicz. </td>
+    <td>A DNA based algorithm for calculating the maxflow in networks</td>
+  </tr>
+  <tr>
+    <td>51</td>
+    <td>Mira Oh, Kyungsook Kim and Young Sook Son. </td>
+    <td>Neural network imputation for missing values in time-course gene expression data</td>
+  </tr>
+  <tr>
+    <td>52</td>
+    <td>Serban Nacu. </td>
+    <td>Gene expression network analysis</td>
+  </tr>
+  <tr>
+    <td>53</td>
+    <td>Chao Xie and Martti Tammi. </td>
+    <td>Discovery of DNA copy number variation using shotgun sequencing data</td>
+  </tr>
+  <tr>
+    <td>54</td>
+    <td>Juntao li, Lei Zhu, Majid Eshaghi, <br>
+      Jianhua Liu and Radha Krishna Murthy <br>
+      Karuturi. </td>
+    <td>Genome-wide high-density chip-chip tiling array data analysis in fission yeast</td>
+  </tr>
+  <tr>
+    <td>55</td>
+    <td>Chee Hong Wong, Hong Sain Ooi and Georg Schneider. </td>
+    <td>The ANNOTATOR software environment: A flexible sequence analysis platform</td>
+  </tr>
+  <tr>
+    <td>56</td>
+    <td>Sumantra Chatterjee, Guillaume Bourque and Thomas Lufkin. </td>
+    <td>A bioinformatic and transgenic approach for elucidating tissue specific&nbsp;regulatory elements.</td>
+  </tr>
+  <tr>
+    <td>57</td>
+    <td>Rosaura Palma and Jorge Luis Rosas. </td>
+    <td>Cellular automata and simulation of biological processes</td>
+  </tr>
+  <tr>
+    <td>58</td>
+    <td>Rory Johnson, Galih Kunarso, Christina Teh, Kee Yew Wong, Kandhadayar G Srinivasan, Sarah S L Chan, R Krishna Murthy Karuturi, Leonard Lipovich, Noel J Buckley and Lawrence W Stanton. </td>
+    <td>Genomic analysis of transcriptional regulation by the factor REST in embryonic stem cells</td>
+  </tr>
+  <tr>
+    <td>59</td>
+    <td>Mohammed A. Khidhir , Kampalli Praveen Kumar, Maraw Al-Aseer</td>
+    <td>Genetic characterization and population structure of Arabian Tahr (Hemitragus jayakari) based on microsatellites analysis</td>
+  </tr>
+  <tr>
+    <td>60</td>
+    <td>Menaka Rajapakse and Feng Lin. </td>
+    <td>Guided discovery of motifs for peptide binding prediction</td>
+  </tr>
+  <tr>
+    <td>61</td>
+    <td>Xiaoli Li and See-Kiong Ng. </td>
+    <td>Mining for domain dependency sets from protein interactions</td>
+  </tr>
+  
+  <tr>
+    <td>62</td>
+    <td>Stephen Rumble and Michael Brudno. </td>
+    <td>SHRiMP -- The SHort Read Mapping Package</td>
+  </tr>
+  <tr>
+    <td>63</td>
+    <td>SeungHeui Ryu, Hwan-Gue Cho, DoHoon Lee</td>
+    <td>COCAW:Comparative Observer for Conserved Areas</td>
+  </tr>
+  <tr>
+    <td>65</td>
+    <td>Ran Elkon, Rita Vesterman, Nira Amit, Igor Ulitsky, Gilad Mass, Idan Zohar, Dorit Sagir, Jackie Assa, Yosef Shiloh and Ron Shamir. </td>
+    <td>SPIKE - Signaling Pathways Integrated Knowledge Engine</td>
+  </tr>
+  <tr>
+    <td>66</td>
+    <td>S.A. Arul Shalom, Manoranjan Dash, Minh Tue</td>
+    <td>GPU-based fast k-means clustering of gene expression profiles</td>
+  </tr>
+  <tr>
+    <td>67</td>
+    <td>Vanishree Srinivas, Lokanath Khamari, Ruby K. Mathew, Jignesh Bhate and Jaya Iyer. </td>
+    <td>Potential cardiovascular disease markers &ndash;&nbsp;&nbsp;CliProTM based analysis</td>
+  </tr>
+  <tr>
+    <td>68</td>
+    <td>Marvin N. Steijaert, Huub M. M. ten Eikelder, Anthony M. L. Liekens, Dragan Bosnacki and Peter A. J. Hilbers. </td>
+    <td>Stochastic switching behavior of a bistable auto-phosphorylation network</td>
+  </tr>
+  <tr>
+    <td>69</td>
+    <td>Bharath Bhat, Ashwin Ram B, Arathi Raghunath, Lokanath Khamari, Vidyendra Sadanandan, Jignesh Bhate and Usha Mahadevan. </td>
+    <td>Ubiquitin-proteasome pathway genes and prostate cancer</td>
+  </tr>
+  
+  <tr>
+    <td>70</td>
+    <td>Meelis Kull and Jaak Vilo. </td>
+    <td>Fast approximate hierarchical clustering using similarity heuristics and adaptation to time constraints</td>
+  </tr>
+  <tr>
+    <td>71</td>
+    <td>Gongjin Dong, Yantao Qiao, Yu Lin, Shiwei Sun, Chungong Yu and Dongbo Bu. </td>
+    <td>A training-set-free stochastic model for peptide identification</td>
+  </tr>
+  <tr>
+    <td>72</td>
+    <td>Hans-Juergen Thiesen, Peter Lorenz, Ziliang Qian, Yixue Li, Michael Kreutzer and Michael Glocker. </td>
+    <td>In silico characterization of peptide epitopes recognized by autoantibodies present in IVIG sample preparations.</td>
+  </tr>
+  <tr>
+    <td>73</td>
+    <td>Niko Beerenwinkel, Nicholas Eriksson, Volker Roth and Osvaldo Zagordi. </td>
+    <td>Ultra-deep sequencing of genetically heterogeneous samples</td>
+  </tr>
+  <tr>
+    <td>74</td>
+    <td>Dong Tong and Robert Mintram. </td>
+    <td>Microarray gene recognition using multiobjetive evolutionary techniques</td>
+  </tr>
+  <tr>
+    <td>75</td>
+    <td>Marcel Martin and Sven Rahmann. </td>
+    <td>A heuristic clustering algorithm using graph transitivity</td>
+  </tr>
+  <tr>
+    <td>76</td>
+    <td>Sebastian Boecker and Florian Rasche.</td>
+    <td> Analysis of metabolite tandem mass Spectra</td>
+  </tr>
+  <tr>
+    <td>77</td>
+    <td>Sang Yup Lee, Jin Hwan Park, Kwang Ho Lee and Tae Yong Kim. </td>
+    <td>L-valine production by systematically engineered Escherichia coli</td>
+  </tr>
+  <tr>
+    <td>78</td>
+    <td>Sang Yup Lee and Tae Yong Kim. </td>
+    <td>Deciphering the evolution and metabolism of Mannheimia succiniciproducens <br>
+      MBEL55E by genome-scale analysis</td>
+  </tr>
+  <tr>
+    <td>79</td>
+    <td>Duygu Tas, Kemal Kilic and Ugur Sezerman. </td>
+    <td>A new probabilistic approach for simplified partial digest problem</td>
+  </tr>
+  <tr>
+    <td>80</td>
+    <td>Elvin Coban, Kemal Kilic and Ugur Sezerman. </td>
+    <td>Constraint programming applied to simplified partial digest problem with errors</td>
+  </tr>
+  <tr>
+    <td>81</td>
+    <td>HsinNan Lin and WenLian Hsu. </td>
+    <td>GACOT -- A genetic algorithm for the physical mapping problem with noisy data</td>
+  </tr>
+  <tr>
+    <td>82</td>
+    <td>Tobias Marschall and Sven Rahmann. </td>
+    <td>Probabilistic arithmetic automata and their application to pattern matching statistics</td>
+  </tr>
+  <tr>
+    <td>83</td>
+    <td>Tae Yong Kim, Soo Yun Moon, Soon Ho Hong and Sang Yup Lee. </td>
+    <td>Metabolic engineering of Escherichia coli for the production of malic acid</td>
+  </tr>
+  <tr>
+    <td>84</td>
+    <td>Tae Yong Kim, Hyung Rok Choi and Sang Yup Lee. </td>
+    <td>Metabolic pathway analysis and its optimization for producing succinic acid in <br>
+      Mannheimia succiniciproducens MBEL55E</td>
+  </tr>
+  <tr>
+    <td>86</td>
+    <td>Fang Rong Hsu and Wei-Chung Shia. </td>
+    <td>A decision support system for the cardiovascular disease using bioinformatics approach</td>
+  </tr>
+  <tr>
+    <td>87</td>
+    <td>Sang Yup Lee, Kwang Ho Lee, Jin Hwan Park and Tae Yong Kim. </td>
+    <td>Metabolic engineering of Escherichia coli for L-threonine production based on <br>
+      systems biology</td>
+  </tr>
+  <tr>
+    <td>88</td>
+    <td>Tae Yong Kim, Hyun Uk Kim, Joon Haeng Rhee and Sang Yup Lee. </td>
+    <td>Application of genome-scale metabolic model of Vibrio vulnificus CMCP6 for in silico drug targeting</td>
+  </tr>
+  <tr>
+    <td>89</td>
+    <td>Roel Verhaak, Laura MacConaill and <br>
+      Matthew Meyerson. </td>
+    <td>Pathogen discovery by combination of computational substraction and <br>
+      pyrosequencing technology</td>
+  </tr>
+  <tr>
+    <td>90</td>
+    <td>Thasso Griebel, Malte Brinkmeyer <br>
+      and Sebastian Boecker.</td>
+    <td>EPoS: A modular framework for phylogenetic analysis</td>
+  </tr>
+  <tr>
+    <td>91</td>
+    <td>S. Avinash Kumar, S. Sundar Raman, R. Parthasarathi, V. Subramanian</td>
+    <td>A triad based approach to sequence comparison of various types of collagen</td>
+  </tr>
+  <tr>
+    <td>92</td>
+    <td>Sumeet Dua and Shirin Lakhani. </td>
+    <td>Structural classification using mining of frequent patterns in concave protein surfaces</td>
+  </tr>
+  <tr>
+    <td>93</td>
+    <td>Ankit Rakha, Mitra Basu, Rao Kosaraju</td>
+    <td>HLA class I peptides: Exploiting positional information for identification and classification</td>
+  </tr>
+  <tr>
+    <td>94</td>
+    <td>John Thomas, Naren Ramakrishnan and Chris Bailey-Kellogg. </td>
+    <td>Protein design by sampling an undirected graphical model of residue constraints</td>
+  </tr>
+  <tr>
+    <td>95</td>
+    <td>Wei Wang, Youling Guo, Yuexian Zou and Tianrui Wu. </td>
+    <td>A novel algorithm for tag SNP selection based on pairwise linkage disequilibrium</td>
+  </tr>
+  <tr>
+    <td>96</td>
+    <td>Valentina Boeva, Julien Cl&eacute;ment, <br>
+      Mireille R&eacute;gnier, Mikhail Roytberg and <br>
+      Vsevolod Makeev.</td>
+    <td> Exact p-value calculation for clusters of TFBSs: Application in computational <br>
+      annotation of regulatory sites</td>
+  </tr>
+  <tr>
+    <td>97</td>
+    <td>Mario Albrecht, Christoph Welsch, <br>
+      Francisco S. Domingues, Gabriele Mayr, <br>
+      Andreas Schlicker, Stefan Zeuzem <br>
+      and Thomas Lengauer. </td>
+    <td>Residue interaction networks for analyzing resistance mutations in HCV protein structures</td>
+  </tr>
+  <tr>
+    <td>98</td>
+    <td>Johan Rung, Ghislain Rocheleau, Alexander Mazur, Christian Dina, Constantin Polychronakos, Philippe Froguel and Rob Sladek. </td>
+    <td>A two-stage genome-wide association study of Type 2 Diabetes Mellitus in <br>
+      a French population</td>
+  </tr>
+  <tr>
+    <td>99</td>
+    <td><p>Gerard Wong, Kylie Gorringe, Ian Campbell, Izhak Haviv,  Christopher Leckie, Adam Kowalczyk.</p></td>
+    <td><p>Detecting Significant Micro-Regions of DNA Aberration in  High Density SNP Array Data</p></td>
+  </tr>
+  <tr>
+    <td>101</td>
+    <td>Marc Delarue and Patrice Koehl. </td>
+    <td>Biomolecular electrostatics: Beyond the Poisson-Boltzmann centric view</td>
+  </tr>
+  <tr>
+    <td>102</td>
+    <td>Hao Zhao and Guillaume Bourque. </td>
+    <td>Prediction and analysis of reliable rearrangement events in mammalian evolution</td>
+  </tr>
+  <tr>
+    <td>103</td>
+    <td>Maryam Nikoosaleh, Armin Madadkar Sobhani and Bahram Goliaei. </td>
+    <td>Camel alpha-lactalbumin 3D structure prediction</td>
+  </tr>
+  <tr>
+    <td>104</td>
+    <td>Chi Ho Lin, Guillaume Bourque and Patrick Tan. </td>
+    <td>Comparative analysis of Burkholderia species reveals an association between large-scale genome rearrangements and fine-scale nucleotide variation in prokaryotes</td>
+  </tr>
+  <tr>
+    <td>105</td>
+    <td>Ron Zhu, Yuelin Zhu and Wei Xu. </td>
+    <td>EzArray: a web-based highly automated Affymetrix expression array data management and analysis system</td>
+  </tr>
+  <tr>
+    <td>106</td>
+    <td>Holger Froehlich, Mark Fellmann, Annemarie Poustka, Holger Sueltmann and Tim Beissbarth. </td>
+    <td>Estimating signaling networks through nested effects models</td>
+  </tr>
+  <tr>
+    <td>107</td>
+    <td>Utz J. Pape and Martin Vingron. </td>
+    <td>Statistics for co-occurrence of DNA motifs</td>
+  </tr>
+  <tr>
+    <td>108</td>
+    <td>Mohamed Helmy, Masaru Tomita, Masa Tsuchiya and Kumar Selvarajoo. </td>
+    <td>Computational simulations suggest transcription factors AP-1 and NF-&kappa;B are <br>
+      key regulators of TLR3 signaling.</td>
+  </tr>
+  <tr>
+    <td>109</td>
+    <td>Lee Hazelwood and John Hancock. </td>
+    <td>Modelling metabolic processes in insulin-secreting pancreatic &beta;-cells</td>
+  </tr>
+  <tr>
+    <td>110</td>
+    <td>Christine Steinhoff, Matteo Pardo and Martin Vingron. </td>
+    <td>Unsupervised joint analysis of arrayCGH, gene expression data and supplementary features</td>
+  </tr>
+  <tr>
+    <td>111</td>
+    <td>Huiqing Liu and Gyan Bhanot. </td>
+    <td>A procedure to identify microRNA gene targets in human kidney cancer</td>
+  </tr>
+  <tr>
+    <td>112</td>
+    <td>Trupti Joshi, Chao Zhang, Guan Ning Lin<br>
+and Dong Xu. </td>
+    <td>An integrated probabilistic approach for gene function prediction using multiple sources of high-throughput data</td>
+  </tr>
+  <tr>
+    <td>113</td>
+    <td>Amit Nagal and Om Prakash Jangir. </td>
+    <td>Computational studies of Lens regeneration under influence of Vitamin A and its metabolite</td>
+  </tr>
+  <tr>
+    <td>114</td>
+    <td>Narendra Kumar and Debasisa Mohanty. </td>
+    <td>Structure based approach for predicting kinase substrates: Role of solvent accessibility of the site of phosphorylation.</td>
+  </tr>
+  <tr>
+    <td>115</td>
+    <td>Jayasree Ganugapati, Ravindra Babu Potti and Ashok Chakravarthy. </td>
+    <td>In silico modeling of pesticidal crystal-like protein cry16Aa from Clostridium bifermentans</td>
+  </tr>
+  <tr>
+    <td>116</td>
+    <td>Gabriela Alexe, Erhan Bilal, Nilay Sethi, <br>
+      Lyndsay Harris, Vasisht Tadigotla, <br>
+      Shridar Ganesan and Gyan Bhanot. </td>
+    <td>Patterns of differential over-expression of the oncogene IKBKE in HER2+ and basal breast cancer</td>
+  </tr>
+  <tr>
+    <td>117</td>
+    <td>Kok Siong Ang and Rudiyanto Gunawan. </td>
+    <td>Parameter estimation in oscillatory biological systems</td>
+  </tr>
+  <tr>
+    <td>118</td>
+    <td>Suresh Kumar Poovathingal, Rudiyanto Gunawan and Gruber Jan. </td>
+    <td>Aging studies: A stochastic approach</td>
+  </tr>
+  <tr>
+    <td>119</td>
+    <td>Faraaz Noor Khan Yusufi, Satty Ganeswara Reddy, May May Lee and Dong-Yup Lee. </td>
+    <td>GlycoVault: An online storage and visualization system for glycan structures</td>
+  </tr>
+  <tr>
+    <td>120</td>
+    <td>Jong Myoung Park, Hongseok Yun and Sang Yup Lee. </td>
+    <td>MFAML: Metabolic Flux Analysis Markup Language</td>
+  </tr>
+  <tr>
+    <td>121</td>
+    <td>Jong Myoung Park, Hongseok Yun, Jeong Wook Lee, Joonwoo Jeong, Jaesung Chung and Sang Yup Lee. </td>
+    <td>EcoProDB: The protein database for Escherichia coli</td>
+  </tr>
+  <tr>
+    <td>122</td>
+    <td>Jong Myoung Park, Choamun Yun, Hongseok Yun, Sunwon Park and Sang Yup Lee. </td>
+    <td>Development of an integrative online tool for modeling and simulation of cellular networks</td>
+  </tr>
+  <tr>
+    <td>123</td>
+    <td>Noel Faux, Richard Tothill, Justin Bedo, David Bowtell and Adam Kowalczyk. </td>
+    <td>Gene expression profiling for the classification of unknown primary</td>
+  </tr>
+  <tr>
+    <td>124</td>
+    <td>Janusz Dutkowski and Jerzy Tiuryn. </td>
+    <td>Inference of protein-protein interactions - an evolutionary approach</td>
+  </tr>
+  <tr>
+    <td>125</td>
+    <td>Xing Yi Woo, Edison Tak-Bun Liu and Guillaume Bourque. </td>
+    <td>Integrative analysis of transcriptome and genomic aberration map in cancer</td>
+  </tr>
+  <tr>
+    <td>126</td>
+    <td>Fang Rong Hsu and Wen Chun Lo. </td>
+    <td>Discovery of novel relationship among single nucleotide polymorphisms, alternative splicing events and tumor</td>
+  </tr>
+  <tr>
+    <td>127</td>
+    <td>Pratap Dey, Arathi Raghunath, Sangjukta Kashyap, Jignesh Bhate and Usha Mahadevan. </td>
+    <td>Role of interaction databases in studying cross-talks between pathways</td>
+  </tr>
+  <tr>
+    <td>128</td>
+    <td>Fang Rong Hsu, Dung-Lin Hsieh and Shao-Peng Yeh. </td>
+    <td>AVATAR II&#65306;An alternative splicing database using three alignment tools</td>
+  </tr>
+  <tr>
+    <td>131</td>
+    <td>Lawrence Buckingham, Xin-Yi Chua, James Hogan, Paul Roe and Jiro Sumitomo. </td>
+    <td>Large-scale comparative studies in GPFlow</td>
+  </tr>
+  <tr>
+    <td>132</td>
+    <td>Vincent Piras, Alessandro Giuliani, Naoki Fujikawa, Masaru Tomita, Kumar Selvarajoo and Masa Tsuchiya. </td>
+    <td>Is transcription factors mediated gene regulation hard wired? A microarray based statistical estimate</td>
+  </tr>
+  <tr>
+    <td>133</td>
+    <td>Sangjukta Kashyap, Arathi Raghunath, Usha Mahadevan, Pratap Dey and Jignesh Bhate. </td>
+    <td>Contrast interaction database -A novel approach to study contextual relevance<br>
+of interactions</td>
+  </tr>
+  <tr>
+    <td>134</td>
+    <td>Dang Hung Tran, Kenji Satou and <br>
+      Tu Bao Ho. </td>
+    <td>Finding microRNA-mRNA modules based on rule induction</td>
+  </tr>
+  <tr>
+    <td>135</td>
+    <td>V Jayaraj, R Suhanya, M Vijayasarathy and E Rajasekaran. </td>
+    <td>Computational studies on role of large hydrophobic residues in proteins</td>
+  </tr>
+  <tr>
+    <td>136</td>
+    <td>Anne Bergeron, Julia Mixtacki and Jens Stoye. </td>
+    <td>HP distance via double cut and join distance</td>
+  </tr>
+  <tr>
+    <td>137</td>
+    <td>Yaotao Qiao, Shiwei Sun, Gongjin Dong, Yu Lin, Chungong Yu and Dongbo Bu. </td>
+    <td>A novel scoring scheme to evaluate the Mmatch of the peptide and mass spectrum</td>
+  </tr>
+  <tr>
+    <td>138</td>
+    <td>Yuriy Orlov. </td>
+    <td>Sequence complexity measures for alignment-free genome comparisons</td>
+  </tr>
+  <tr>
+    <td>139</td>
+    <td>Chia-Lang Hsu, Yen-Hua Huang and Ueng-Cheng Yang. </td>
+    <td>A gene ontology-based method to present pathway relations</td>
+  </tr>
+  <tr>
+    <td>140</td>
+    <td>Armando Solis and Shalom Rackovsky. </td>
+    <td>Information-guided knowledge-based potential functions for protein structure prediction</td>
+  </tr>
+  <tr>
+    <td>141</td>
+    <td>Rajaraman Kanagasabai and Christopher Baker. </td>
+    <td>Extraction and mapping of protein mutations via ontology-centric knowledge integration</td>
+  </tr>
+  <tr>
+    <td>142</td>
+    <td>Przemek Biecek, Adam Zagdanski,<br>
+Rafal Kustra and Stanislaw Cebrat.</td>
+    <td> Improving the detection performance for gene set functional enrichment <br>
+      and transcription factor binding sites analysis</td>
+  </tr>
+  <tr>
+    <td>144</td>
+    <td>Brian Parker, Jiayu Wen and Georg Weiller. </td>
+    <td>Structural strand asymmetry for transcription orientation prediction in unaligned non-coding RNA sequences</td>
+  </tr>
+  <tr>
+    <td>145</td>
+    <td>Xin Li and Jing Li. </td>
+    <td>Zero recombinant haplotype inference with missing</td>
+  </tr>
+  <tr>
+    <td>146</td>
+    <td>Jia-Ming Chang, Emily Chia-Yu Su, <br>
+      Allan Lo, Hua-Sheng Chiu, Ting-Yi Sung <br>
+      and WenLian Hsu.</td>
+    <td> A document classification strategy to predict protein subcellular localization using sequence motifs and evolutionary information</td>
+  </tr>
+  <tr>
+    <td>147</td>
+    <td>Alvin Ng and Jagath Rajapakse. </td>
+    <td>Statistical analysis of macrophage cell morphology after microtubule disruption</td>
+  </tr>
+  <tr>
+    <td>148</td>
+    <td>Reetal Pai, James Sacchettini and Thomas Ioerger. </td>
+    <td>Fragment-based analysis of protein-ligand interactions using localized <br>
+      stereochemical features</td>
+  </tr>
+  <tr>
+    <td>149</td>
+    <td>Namit Bharija and Avinash Kumar Shanmugam. </td>
+    <td>QSAR studies of anti influenza Neuraminidase inhibitors [Oseltamivir]</td>
+  </tr>
+  <tr>
+    <td>150</td>
+    <td>Sandro Andreotti, Juergen Kleffe and Paul Wrede. </td>
+    <td>De novo design of peptides: potential vaccines against the influenza A virus</td>
+  </tr>
+  <tr>
+    <td>151</td>
+    <td>Merlin V. A James, James G Evans, Paul Matsudaira, Roy E Welsch and Jagath Rajapakse. </td>
+    <td>Size-specific and brightness-weighted cell tracking in 2D images</td>
+  </tr>
+  <tr>
+    <td>152</td>
+    <td>Chi-Yong Cho, Dae-Soo Kim, Jae-Won Huh, Heui-Soo Kim, DoHoon Lee and Hwan-Gue Cho</td>
+    <td> EVOG : Evolution Visualizer for Overlapping Genes</td>
+  </tr>
+  <tr>
+    <td>153</td>
+    <td>Meng-Chang Hsiao, Chien-Ming Chen, Tun-Wen Pai, Wen-Shyong Tzou, and Ron-Shan Chen</td>
+    <td>A study of microsatellites dominating mammalian size variation</td>
+  </tr>
+  <tr>
+    <td>154</td>
+    <td>Duygu Ucar, Fatih Altiparmak, Hakan Ferhatosmanoglu and Srinivasan Parthasarathy. </td>
+    <td>Investigating the promise of extrinsic similarity measures for gene expression analysis</td>
+  </tr>
+  <tr>
+    <td>155</td>
+    <td>Sharlee Climer, Alan Templeton and <br>
+      Weixiong Zhang. </td>
+    <td>A dense graph model for haplotype inference</td>
+  </tr>
+  <tr>
+    <td>156</td>
+    <td>Neil D. Clarke, Hock Chuan Yeo, Zhen Xuan Yeo, and Ye Li</td>
+    <td>Large scale inference of condition-specific regulation using gene expression data and<br>
+the predicted transcription factor occupancy of promoters</td>
+  </tr>
+</table>
+<br>
+
+
+<p><a href="index.html">Back to HOME</a></p>
+<p align="right">Last Modified on: 17 March 2008</p>
+
+</td>
+  </tr>
+  <tr> 
+    <td colspan="3" align="center" class="footerlinkhome" bgcolor="#0033CC">
+             <a target="_blank" href="http://www.informatik.uni-trier.de/~ley/db/conf/recomb/recomb1997.html" class="footerlinkhome">97</a> 
+            | 98 
+            | <a target="_blank" href="http://www2.lifl.fr/~kucherov/RECOMB99/" class="footerlinkhome">99</a> 
+            | <a target="_blank" href="http://recomb2000.ims.u-tokyo.ac.jp/" class="footerlinkhome">00</a> 
+            | <a target="_blank" href="http://bioinf.mpi-sb.mpg.de/conferences/recomb2001/WWW/Welcome.html" class="footerlinkhome">01</a> 
+            | <a target="_blank" href="http://www.erpland.org/recomb/" class="footerlinkhome">02</a> 
+            | <a target="_blank" href="http://www-recomb2003.molgen.mpg.de/" class="footerlinkhome">03</a> 
+            | <a target="_blank" href="http://recomb04.sdsc.edu/" class="footerlinkhome">04</a> 
+            | <a target="_blank" href="http://www.broad.mit.edu/events/recomb2005/" class="footerlinkhome">05</a> 
+            | <a target="_blank" href="http://recomb06.dei.unipd.it/" class="footerlinkhome">06</a>
+            | <a target="_blank" href="http://www.qb3.org/recomb07/index.html" class="footerlinkhome">07</a> </td>
+  </tr>
+
+
+  <tr> 
+    <td colspan="3" align="center">
+      <table cellspacing=0 cellpadding=5 border=0><tr><td colspan="3" align="center">
+        <p class="footertext" style="color:#000000;">&copy; Copyright 2006-07 National University of Singapore. All Rights Reserved.<br>
+        Conference email address: <a href="mailto:recomb08@comp.nus.edu.sg">recomb08@comp.nus.edu.sg</a><br>
+        Page Maintained by: <a href="mailto:webtech@comp.nus.edu.sg">webtech</a></p>
+      </td></tr></table>
+    </td>
+  </tr>
+
+<tr> 
+    <td colspan="3" style="background-image: url(/_images/grey_onepx.gif);"><img src="/_images/spacer.gif" alt="" width="1" height="1"></td>
+  </tr>
+
+
+</table>
+
+
+<script async type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=8&cb=368410530"></script>
+</body>
+</html>
+

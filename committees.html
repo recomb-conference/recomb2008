@@ -1,0 +1,392 @@
+<html>
+<head>
+<title>RECOMB2008 - COMMITTEES</title>
+<link href="css/nusstyles.css" rel="styleSheet" type="text/css">
+<link href="css/newlookstyles.css" rel="styleSheet" type="text/css">
+
+<style type="text/css">
+
+.new_item_sign {
+	color: #FF0000;
+}
+
+
+td.bold_cell {
+font-weight: bold;
+}
+
+td.section_underline_cell {
+background-color: #000000;
+}
+</style>
+
+<script type="text/javascript">
+
+/* SSI to load the menu generator (DO NOT CHANGE) */
+
+function add_menuitem(sectkey, url, title, level) {
+
+var n = menuitems.length;
+
+menuitems[n] = new Array();
+menuitems[n][0] = sectkey;
+menuitems[n][1] = url;
+menuitems[n][2] = title;
+menuitems[n][3] = level;
+
+}
+
+function do_sect_menu(sectkey) {
+
+    var tablepad = 0;
+    var border = 0;
+
+    var document_write = "<table cellspacing=0 cellpadding=" + tablepad + " border=" + border + " width=\"100%\">";
+
+    var n = menuitems.length;
+    for (var i = 0; i < n; i++) {
+
+	var indent = 1;
+	var leftrightpad = tablepad;
+	var cell = 162;
+
+	document_write += "<tr>";
+
+	for (var j = 0; j < menuitems[i][3]; j++) {
+	    document_write += "<td width=" + cell + ">";
+	    cell -= 2 * leftrightpad;
+	    leftrightpad = 0;
+	    document_write += "<table cellspacing=0 cellpadding=0 border=" + border + " width=162><tr>";
+	    cell -= indent;
+	}
+
+	document_write += "<td valign=middle height=25 background=\"images/but_bg3.gif\" style=\"background-repeat: repeat-x\">";
+
+	if (menuitems[i][0] != "" && sectkey == menuitems[i][0]) {
+	    if (cell < 157) {
+		document_write += "<span class=\"fortext5b\">" + menuitems[i][2] + "</span>";
+	    }
+	    else if (cell < 160) {
+		document_write += "<span class=\"fortext4b\">" + menuitems[i][2] + "</span>";
+	    }
+	    else {
+		document_write += "<span class=\"fortext2\">" + menuitems[i][2] + "</span>";
+	    }
+	} else if (menuitems[i][1] != "") {
+	    if (cell < 157) {
+		document_write += "<a href=\"" + menuitems[i][1] + "\" class=\"fortext5\">" + menuitems[i][2] + "</a>";
+	    }
+	    else if (cell < 160) {
+		document_write += "<a href=\"" + menuitems[i][1] + "\" class=\"fortext4\">" + menuitems[i][2] + "</a>";
+	    }
+	    else {
+		document_write += "<a href=\"" + menuitems[i][1] + "\" class=\"fortext\">" + menuitems[i][2] + "</a>";
+            }
+	} else {
+            if (cell < 160) {
+		document_write += "<span class=\"fortext4c\">" + menuitems[i][2] + "</span>";
+	    }
+	    else {
+                document_write += "<span class=\"fortext3\">" + menuitems[i][2] + "</span>";
+	    }
+	}
+
+	document_write += "</td>";
+
+	for (var j = 0; j < menuitems[i][3]; j++) {
+	    document_write += "</tr></table></td>";
+	}
+
+
+	document_write += "</tr>";
+
+    }
+
+document_write += "</table>";
+
+document.write(document_write);
+
+}
+
+
+/* SSI to load the "Links in ..." definitions */
+
+var menuitems = new Array();
+
+add_menuitem("introduction", "index.html", "INTRODUCTION", 0);
+add_menuitem("news", "news.html", "NEWS: RECOMB & GENOME<br>&nbsp; RESEARCH TEAM UP", 0);
+add_menuitem("sponsors", "sponsors.html", "ORGANIZERS AND SPONSORS", 0);
+add_menuitem("speakers", "speakers.html", "KEYNOTE SPEAKERS", 0);
+add_menuitem("committees", "committees.html", "COMMITTEES", 0);
+add_menuitem("cfp", "cfp.html", "CALL FOR PAPERS", 0);
+add_menuitem("submission", "submission.html", "PAPER SUBMISSION", 0);
+add_menuitem("accepted", "accepted.html", "LIST OF ACCEPTED PAPERS", 0);
+add_menuitem("poster", "poster.html", "CALL FOR POSTERS", 0);
+add_menuitem("postersubmission", "postersubmission.html", "POSTER SUBMISSION", 0);
+add_menuitem("acceptedposters", "accp_poster.html", "LIST OF ACCEPTED POSTERS", 0);
+add_menuitem("photos", "http://av.comp.nus.edu.sg/coppermine/thumbnails.php?album=160", "PHOTOS", 0);
+add_menuitem("programme", "programme.html", "PROGRAMME", 0);
+add_menuitem("registration", "registration.html", "REGISTRATION", 0);
+add_menuitem("visa", "visa.html", "VISA INFORMATION", 0);
+add_menuitem("travel", "travel.html", "TRAVEL GRANTS", 0);
+add_menuitem("accommodation", "accommodation.html", "ACCOMMODATION", 0);
+add_menuitem("links", "links.html", "LINKS", 0);
+add_menuitem("singapore", "singapore.html", "UNIQUELY SINGAPORE", 0);
+
+
+
+
+/* Marker of the current page to be shown as highlighted in "Links in ..." menu */
+var sectkey = "committees";
+
+</script>
+</head>
+<body>
+
+<table width="750" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" style="width:750px;table-layout:fixed">
+
+  <tr> 
+    <td width="1" rowspan=7 background="_images/grey_onepx.gif"><img src="_images/spacer.gif" width="1" height="1"></td>
+    <td width="740">
+    </td>
+    <td valign=bottom width="9" bgcolor="#F2F2F2"><img src="_images/spacer.gif" width="9" height="1"></td>
+  </tr>
+
+  <tr> 
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      </table></td>
+    <td rowspan="6" valign="top" background="_images/bg_right.gif"><img src="_images/spacer.gif" width="9" height="1"></td>
+  </tr>
+
+
+  <tr> 
+    <td valign="top">
+
+<tr>
+  <td>
+<table width="740" height="150" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="571" height="150" align="left" valign="top"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="571" height="150">
+          <param name="movie" value="gif/banner.swf" />
+          <param name="quality" value="high" />
+          <embed src="gif/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="571" height="150"></embed>
+        </object></td>
+        <td width="166" height="150" align="center" valign="bottom"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="166" height="150">
+          <param name="movie" value="gif/right.swf" />
+          <param name="quality" value="high" />
+          <embed src="gif/right.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="166" height="150"></embed>
+        </object></td>
+      </tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td><table cellspacing=0 cellpadding=0 border=0>
+<tr>
+
+
+<td valign=top width=168><table cellspacing=0 cellpadding=0 border=0 width=168>
+
+
+<tr>
+<td>&nbsp;</td>
+</tr>
+
+
+<!-- begin "Links in ..." MENU -->
+<tr>
+<td><table border=0 cellspacing=0 cellpadding=0 width=165>
+<tr>
+<td><div class="box4"><strong>RECOMB 2008</strong></div></td>
+</tr>
+</table></td>
+</tr>
+
+<tr>
+<td><table cellspacing=0 cellpadding=0 border=0 width="162">
+
+<tr>
+<td width=162 style="background-color: #FFFFFF;"><script type="text/javascript"><!--
+do_sect_menu(sectkey);
+//--></script></td>
+</tr>
+
+</table></td>
+
+</tr>
+
+<!-- end "Links in ..." MENU -->
+
+<tr>
+<td>&nbsp;</td>
+</tr>
+
+</table></td>
+
+<td valign=top width="100%" style="padding: 15px;">
+
+
+<table cellspacing=0 cellpadding=0 border=0 width="100%">
+  <tr>
+    <td align=center>
+<table cellspacing=0 cellpadding=0 border=0>
+  <tr>
+    <td colspan="3"><h1>COMMITTEES</h1>
+    </td>
+  </tr>
+</table>
+    </td>
+  </tr>
+</table>
+
+<p><b><h4>Steering Committee</h4></b>
+<p>
+            Serafim Batzoglou, Stanford University<br>
+            Sorin Istrail, Brown University<br>
+            Thomas Lengauer, Max-Planck-Institut für Informatik<br>
+            Michal Linial, Hebrew University of Jerusalem<br>
+            Pavel Pevzner, UCSD<br>
+            Ron Shamir, Tel Aviv University<br>
+            Terry Speed, UC Berkeley<br>
+            Martin Vingron, Max Planck Institute for Molecular Genetics<br>
+      </p><hr>
+<blockquote>
+  </p>
+</blockquote><p><b><h4>Conference Chair</h4></b>
+<p>
+            Limsoon WONG, National University of Singapore<br>
+</p>
+
+<hr>
+</blockquote><p><b><h4>Program Committee</h4></b>
+<p>
+            Martin Vingron, Max Planck Institute for Molecular Genetics <b>(Chair)</b><br>
+            Tatsuya Akutsu, Kyoto University<br>
+            Serafim Batzoglou, Stanford University<br>
+            Bonnie Berger, MIT<br>
+            Mathieu Blanchette, McGill University<br>
+            Joachim Buhmann, ETH Zrich<br>
+            Kun-Mao Chao, National Taiwan University<br>
+            Dannie Durand, Carnegie Mellon University<br>
+            Eleazar Eskin, UC Los Angeles<br>
+            Nir Friedman, Hebrew University<br>
+            Dan Geiger, Technion<br>
+            Gaston Gonnet, ETH Zürich<br>
+            Dan Gusfield, UC Davis<br>
+            Arndt von Haeseler, Max F. Perutz Laboratories<br>
+            Alexander Hartemink, Duke University<br>
+            Trey Ideker, UC San Diego<br>
+            Sorin Istrail, Brown University<br>
+            Tao Jiang, UC Riverside<br>
+            John Kececioglu, University of Arizona<br>
+            Manolis Kellis, MIT<br>
+            Anders Krogh, Universität Kopenhagen<br>
+            Jens Lagergren, Royal Institute of Technology, Sweden<br>
+            Thomas Lengauer, MPI für Informatik<br>
+            Arthur Lesk, Pennsylvania State University<br>
+            Ming Li, University of Waterloo<br>
+            Michal Linial, Hebrew University<br>
+            Satoru Miyano, Tokyo University<br>
+            William Noble, University of Washington<br>
+            Pavel Pevzner, UC San Diego<br>
+            Knut Reinert, Freie Universität Berlin<br>
+            Stephan Robin, AgroParisTech<br>
+            Ron Shamir, Tel Aviv University <br>
+            Roded Sharan, Tel Aviv University<br>
+            Adam Siepel, Cornell University<br>
+            Terry Speed, UC Berkeley<br>
+            Peter Stadler, Universität Leipzig<br>
+            Jens Stoye, Universität Bielefeld<br>
+            Wing-Kin Sung, National University of Singapore<br>
+            Fengzhu Sun, University of Southern California<br>
+            Simon Tavare, Cambridge University<br>
+            Jerzy Tiuryn, University of Warsaw<br>
+            Lusheng Wang, City University, Hong Kong<br>
+            Michael Waterman, University of Southern California<br>
+            Limsoon Wong, National University of Singapore<br>
+            Wing Hung Wong, Stanford University<br>
+            Eric Xing, Carnegie Mellon University<br>
+            Zohar Yakhini, Agilent Laboratories<br>
+</p>
+
+<hr>
+</blockquote><p><b><h4>Poster Committee</h4></b>
+<p>
+            Hon-Nian Chua, Institute for Infocomm Research, Singapore<br>
+            Neil Clarke, Genome Institute of Singapore, Singapore<br>
+            Frank Eisenhaber, Bioinformatics Institute, Singapore<br>
+            Wing-Kin Sung, National University of Singapore, Singapore<br>
+            Greg Tucker-Kellogg, Lilly Singapore Centre for Drug Discovery, Singapore<br>
+            Martin Vingron, Max Planck Institute for Molecular Genetics (Co-chair)<br>
+            Limsoon Wong, National University of Singapore, Singapore (Co-chair)
+<br>
+</p>
+
+<hr>
+<p><b><h4>Organizing Committee</h4></b></p>
+ <p align="left"><b>National University of Singapore</b></p>
+
+  <p align="left">Agnes ANG<br>
+              Lay Khim CHNG<br>
+              Kwok Pui CHOI<br>
+              Alexia LEONG<br>
+              Hon Wai LEONG<br>
+              Wai Kin LEONG<br>
+              Stefanie NG<br>
+              Wing-Kin SUNG<br>
+              Martti TAMMI<br>
+              Siang Yong YAP<br>
+
+</p>
+  <p align="left"><b>Nanyang Technological University</b></p>
+  <p align="left">Xin CHEN<br>
+              Chee Keong KWOH</p>
+  <p align="left"><b>Research Institutes</b></p>
+  <p align="left">Guillaume BOURQUE, Genome Institute of Singapore<br>
+                  Alan CHRISTOFFELS, Temasek Lifesciences Laboratory<br>
+                  Dong-Yup LEE, Bioprocessing Technology Institute<br>
+                  Gunaretnam Rajagopal, BioInformatics Institute</p>
+
+<p><a href="index.html">Back to HOME</a></p>
+<p align="right">Last Modified on: 04 January 2008</p>
+
+</td>
+  </tr>
+  <tr> 
+    <td colspan="3" align="center" class="footerlinkhome" bgcolor="#0033CC">
+             <a target="_blank" href="http://www.informatik.uni-trier.de/~ley/db/conf/recomb/recomb1997.html" class="footerlinkhome">97</a> 
+            | 98 
+            | <a target="_blank" href="http://www2.lifl.fr/~kucherov/RECOMB99/" class="footerlinkhome">99</a> 
+            | <a target="_blank" href="http://recomb2000.ims.u-tokyo.ac.jp/" class="footerlinkhome">00</a> 
+            | <a target="_blank" href="http://bioinf.mpi-sb.mpg.de/conferences/recomb2001/WWW/Welcome.html" class="footerlinkhome">01</a> 
+            | <a target="_blank" href="http://www.erpland.org/recomb/" class="footerlinkhome">02</a> 
+            | <a target="_blank" href="http://www-recomb2003.molgen.mpg.de/" class="footerlinkhome">03</a> 
+            | <a target="_blank" href="http://recomb04.sdsc.edu/" class="footerlinkhome">04</a> 
+            | <a target="_blank" href="http://www.broad.mit.edu/events/recomb2005/" class="footerlinkhome">05</a> 
+            | <a target="_blank" href="http://recomb06.dei.unipd.it/" class="footerlinkhome">06</a>
+            | <a target="_blank" href="http://www.qb3.org/recomb07/index.html" class="footerlinkhome">07</a> </td>
+  </tr>
+
+
+  <tr> 
+    <td colspan="3" align="center">
+      <table cellspacing=0 cellpadding=5 border=0><tr><td colspan="3" align="center">
+        <p class="footertext" style="color:#000000;">&copy; Copyright 2006-07 National University of Singapore. All Rights Reserved.<br>
+        Conference email address: <a href="mailto:recomb08@comp.nus.edu.sg">recomb08@comp.nus.edu.sg</a><br>
+        Page Maintained by: <a href="mailto:webtech@comp.nus.edu.sg">webtech</a></p>
+      </td></tr></table>
+    </td>
+  </tr>
+
+<tr> 
+    <td colspan="3" style="background-image: url(/_images/grey_onepx.gif);"><img src="/_images/spacer.gif" alt="" width="1" height="1"></td>
+  </tr>
+
+
+</table>
+
+
+<script async type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=136025984"></script>
+</body>
+</html>

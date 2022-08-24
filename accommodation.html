@@ -1,0 +1,408 @@
+<html>
+<head>
+<title>RECOMB2008 - ACCOMMODATION</title>
+<link href="css/nusstyles.css" rel="styleSheet" type="text/css">
+<link href="css/newlookstyles.css" rel="styleSheet" type="text/css">
+
+<style type="text/css">
+
+.new_item_sign {
+	color: #FF0000;
+}
+
+
+td.bold_cell {
+font-weight: bold;
+}
+
+td.section_underline_cell {
+background-color: #000000;
+}
+.style2 {color: #FFFFFF}
+
+.style4 {color: #FFFFFF; font-weight: bold; }
+</style>
+
+<script type="text/javascript">
+
+/* SSI to load the menu generator (DO NOT CHANGE) */
+
+function add_menuitem(sectkey, url, title, level) {
+
+var n = menuitems.length;
+
+menuitems[n] = new Array();
+menuitems[n][0] = sectkey;
+menuitems[n][1] = url;
+menuitems[n][2] = title;
+menuitems[n][3] = level;
+
+}
+
+function do_sect_menu(sectkey) {
+
+    var tablepad = 0;
+    var border = 0;
+
+    var document_write = "<table cellspacing=0 cellpadding=" + tablepad + " border=" + border + " width=\"100%\">";
+
+    var n = menuitems.length;
+    for (var i = 0; i < n; i++) {
+
+	var indent = 1;
+	var leftrightpad = tablepad;
+	var cell = 162;
+
+	document_write += "<tr>";
+
+	for (var j = 0; j < menuitems[i][3]; j++) {
+	    document_write += "<td width=" + cell + ">";
+	    cell -= 2 * leftrightpad;
+	    leftrightpad = 0;
+	    document_write += "<table cellspacing=0 cellpadding=0 border=" + border + " width=162><tr>";
+	    cell -= indent;
+	}
+
+	document_write += "<td valign=middle height=25 background=\"images/but_bg3.gif\" style=\"background-repeat: repeat-x\">";
+
+	if (menuitems[i][0] != "" && sectkey == menuitems[i][0]) {
+	    if (cell < 157) {
+		document_write += "<span class=\"fortext5b\">" + menuitems[i][2] + "</span>";
+	    }
+	    else if (cell < 160) {
+		document_write += "<span class=\"fortext4b\">" + menuitems[i][2] + "</span>";
+	    }
+	    else {
+		document_write += "<span class=\"fortext2\">" + menuitems[i][2] + "</span>";
+	    }
+	} else if (menuitems[i][1] != "") {
+	    if (cell < 157) {
+		document_write += "<a href=\"" + menuitems[i][1] + "\" class=\"fortext5\">" + menuitems[i][2] + "</a>";
+	    }
+	    else if (cell < 160) {
+		document_write += "<a href=\"" + menuitems[i][1] + "\" class=\"fortext4\">" + menuitems[i][2] + "</a>";
+	    }
+	    else {
+		document_write += "<a href=\"" + menuitems[i][1] + "\" class=\"fortext\">" + menuitems[i][2] + "</a>";
+            }
+	} else {
+            if (cell < 160) {
+		document_write += "<span class=\"fortext4c\">" + menuitems[i][2] + "</span>";
+	    }
+	    else {
+                document_write += "<span class=\"fortext3\">" + menuitems[i][2] + "</span>";
+	    }
+	}
+
+	document_write += "</td>";
+
+	for (var j = 0; j < menuitems[i][3]; j++) {
+	    document_write += "</tr></table></td>";
+	}
+
+
+	document_write += "</tr>";
+
+    }
+
+document_write += "</table>";
+
+document.write(document_write);
+
+}
+
+
+/* SSI to load the "Links in ..." definitions */
+
+var menuitems = new Array();
+
+add_menuitem("introduction", "index.html", "INTRODUCTION", 0);
+add_menuitem("news", "news.html", "NEWS: RECOMB & GENOME<br>&nbsp; RESEARCH TEAM UP", 0);
+add_menuitem("sponsors", "sponsors.html", "ORGANIZERS AND SPONSORS", 0);
+add_menuitem("speakers", "speakers.html", "KEYNOTE SPEAKERS", 0);
+add_menuitem("committees", "committees.html", "COMMITTEES", 0);
+add_menuitem("cfp", "cfp.html", "CALL FOR PAPERS", 0);
+add_menuitem("submission", "submission.html", "PAPER SUBMISSION", 0);
+add_menuitem("accepted", "accepted.html", "LIST OF ACCEPTED PAPERS", 0);
+add_menuitem("poster", "poster.html", "CALL FOR POSTERS", 0);
+add_menuitem("postersubmission", "postersubmission.html", "POSTER SUBMISSION", 0);
+add_menuitem("acceptedposters", "accp_poster.html", "LIST OF ACCEPTED POSTERS", 0);
+add_menuitem("photos", "http://av.comp.nus.edu.sg/coppermine/thumbnails.php?album=160", "PHOTOS", 0);
+add_menuitem("programme", "programme.html", "PROGRAMME", 0);
+add_menuitem("registration", "registration.html", "REGISTRATION", 0);
+add_menuitem("visa", "visa.html", "VISA INFORMATION", 0);
+add_menuitem("travel", "travel.html", "TRAVEL GRANTS", 0);
+add_menuitem("accommodation", "accommodation.html", "ACCOMMODATION", 0);
+add_menuitem("links", "links.html", "LINKS", 0);
+add_menuitem("singapore", "singapore.html", "UNIQUELY SINGAPORE", 0);
+
+
+
+
+/* Marker of the current page to be shown as highlighted in "Links in ..." menu */
+var sectkey = "accommodation";
+
+</script>
+</head>
+<body>
+
+<table width="750" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" style="width:750px;table-layout:fixed">
+
+  <tr> 
+    <td width="1" rowspan=7 background="_images/grey_onepx.gif"><img src="_images/spacer.gif" width="1" height="1"></td>
+    <td width="740">
+    </td>
+    <td valign=bottom width="9" bgcolor="#F2F2F2"><img src="_images/spacer.gif" width="9" height="1"></td>
+  </tr>
+
+  <tr> 
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      </table></td>
+    <td rowspan="6" valign="top" background="_images/bg_right.gif"><img src="_images/spacer.gif" width="9" height="1"></td>
+  </tr>
+
+
+  <tr> 
+    <td valign="top">
+
+<tr>
+  <td>
+<table width="740" height="150" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="571" height="150" align="left" valign="top"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="571" height="150">
+          <param name="movie" value="gif/banner.swf" />
+          <param name="quality" value="high" />
+          <embed src="gif/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="571" height="150"></embed>
+        </object></td>
+        <td width="166" height="150" align="center" valign="bottom"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="166" height="150">
+          <param name="movie" value="gif/right.swf" />
+          <param name="quality" value="high" />
+          <embed src="gif/right.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="166" height="150"></embed>
+        </object></td>
+      </tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td><table cellspacing=0 cellpadding=0 border=0>
+<tr>
+
+
+<td valign=top width=168><table cellspacing=0 cellpadding=0 border=0 width=168>
+
+
+<tr>
+<td>&nbsp;</td>
+</tr>
+
+
+<!-- begin "Links in ..." MENU -->
+<tr>
+<td><table border=0 cellspacing=0 cellpadding=0 width=165>
+<tr>
+<td><div class="box4"><strong>RECOMB 2008</strong></div></td>
+</tr>
+</table></td>
+</tr>
+
+<tr>
+<td><table cellspacing=0 cellpadding=0 border=0 width="162">
+
+<tr>
+<td width=162 style="background-color: #FFFFFF;"><script type="text/javascript"><!--
+do_sect_menu(sectkey);
+//--></script></td>
+</tr>
+
+</table></td>
+
+</tr>
+
+<!-- end "Links in ..." MENU -->
+
+<tr>
+<td>&nbsp;</td>
+</tr>
+
+</table></td>
+
+<td valign=top width="100%" style="padding: 15px;">
+
+
+<table cellspacing=0 cellpadding=0 border=0 width="100%">
+  <tr>
+    <td align=center>
+<table cellspacing=0 cellpadding=0 border=0>
+  <tr>
+    <td colspan="3"><h1>ACCOMMODATION</h1>
+    </td>
+  </tr>
+</table>
+    </td>
+  </tr>
+</table>
+
+<p>The conference committee has selected the following hotels for RECOMB2008 conference accommodation:<p>
+
+<table width="100%"  border="1" cellpadding="5">
+  <tr bgcolor="#0033CC">
+    <td width="23%"><div align="center"><span class="style4">Hotel</span></div></td>
+    <td width="23%"><div align="center"><span class="style4">Room Category</span    ></div></td>
+    <td width="27%"><div align="center"><span class="style2"><strong>Room Rate</strong><br>
+    </span></div></td>
+  </tr>
+
+  <tr>
+    <td rowspan="3"> <div align="center"><a href="http://www.swissotel.com/singapore-stamford/">Swissôtel The Stamford,</a>
+    <br> Singapore
+    <br><br> 2 Stamford Road
+    <br>Singapore 178882
+    </div></td>
+    <td rowspan="3"><div align="center">Deluxe <br>
+    <i>located from 7th to 56th floors with a wonderful view of the city skyline    </i>
+    </div></td>
+    <td><p align="center">S$280.00++<br>
+      (room only)</p>      </td>
+  </tr>
+
+  <tr>
+    <td><p align="center">S$310.00++<br>
+      (with 1 breakfast) </p>      </td>
+  </tr>
+  <tr>
+    <td><p align="center">S$340.00++<br>
+      (with 2 breakfasts) </p>      </td>
+  </tr>
+  
+  <tr>
+<td><div align="center"><a href="http://www.parkhotelgroup.com/gpph/gpph00_index.html">Grand Plaza Park Hotel</a>
+<br>City Hall 
+<br><br>10 Coleman Street 
+<br>Singapore 179809
+</div></td>
+<td><div align="center">Superior</div></td>
+<td><div align="center">S$220.00++<br> 
+(with 1 breakfast)</div></td>
+</tr>
+</table>
+
+<p>
+<b>Note:</b><br> 
+All rates quoted above are subject to 10% service charge and prevailing government taxes.</p> 
+
+<p>
+<b>Room Reservations:</b>
+</p>
+
+<p>
+<b><a href="http://www.swissotel.com/singapore-stamford/">Swissôtel The Stamford Hotel</a></b><br>
+Tel: +65 6431 5525<br> 
+Fax: +65 6336 8783<br> 
+Email: rachel.tee@swissotel.com
+</p>
+
+<p>
+<b><a href="http://www.parkhotelgroup.com/gpph/gpph00_index.html">Grand Plaza Park Hotel City Hall</a></b><br>
+Tel: +65-6432 5505<br> 
+Fax: +65-6334 2962<br> 
+Email: maegan@chsg.gp.parkhotelgroup.com
+</p>
+
+
+<p>
+Please click here for a copy of the <b>Hotel Reservation form:</b>
+</p>
+
+<p>
+Swissôtel The Stamford Hotel (<a target="_blank" href="gif/Swissotel.doc">doc</a> or <a target="_blank" href="gif/Swissotel.pdf">pdf)</a><br>
+Grand Plaza Park Hotel City Hall (<a target="_blank" href="gif/Grand-Plaza.doc">doc</a> or <a target="_blank" href="gif/Grand-Plaza.pdf">pdf)</a>
+</p>
+
+<p>
+Other accommodation located near the National University of Singapore: 
+</p>
+
+<p><b><a href="http://www.santa.com.sg/hotel_westcoast.asp">Santa Grand Hotel</a> (Pasir Panjang, West Coast)</b></p>
+<p>
+428 Pasir Panjang Road, Singapore 118769<br>
+Room rate: S$118 to S$138 (inclusive of all taxes)<br>
+Tel: +65-6778 6788<br>
+Fax: +65-6778 1066<br>
+Email: <a href="mailto:enquiry@santa.com.sg">enquiry@santa.com.sg</a> 
+</p>
+
+<p>
+<b>Pasir Panjang Inn</b></p>
+
+<p>
+404 Pasir Panjang Road, Singapore 118741<br> 
+Room rate: S$95-S$110 nett (rate subject to change in 2008)<br>
+Contact person: Mr Michael<br> 
+Tel: +65-67788511 ext 101<br> 
+Fax: +65-6872 4989<br> 
+Email: <a href="mailto:ppinn@pacific.net.sg">ppinn@pacific.net.sg</a>
+</p>
+
+<p>
+For a list of secondary hotels with a range of varied pricing, please refer to this website which provides comprehensive information on the available accommodation in Singapore (by region, pricing, etc):
+</p>
+
+<p>
+<ul>
+<li><a href="http://www.visitsingapore.com/publish/stbportal/en/home/where_to_stay/accommodation_in_singapore.html">Where to stay in Singapore</a><br>
+<li><a href="http://www.visitsingapore.com/publish/stbportal/en/home/apps/hotel_search.html">Singapore Hotels</a>
+</li>
+</ul>
+<p>
+ 
+<p>
+Students may refer <a href="http://www.nus.edu.sg/osa/housing/acc/gstrms.html">here</a> for the Hostel in <b>National University of Singapore.</b>
+</p>
+
+<p>
+A small number of guest rooms have also been set aside at the <b>Eusoff Hall</b> for student participants. Please contact <a href="mailto:eshsec@nus.edu.sg">Ms Rashidah Bte Salleh</a> quoting RECOMB2008 to make booking.
+</p>
+
+<p><a href="index.html">Back to HOME</a></p>
+<p align="right">Last Modified on: 26 December 2007</p>
+
+</td>
+  </tr>
+  <tr> 
+    <td colspan="3" align="center" class="footerlinkhome" bgcolor="#0033CC">
+             <a target="_blank" href="http://www.informatik.uni-trier.de/~ley/db/conf/recomb/recomb1997.html" class="footerlinkhome">97</a> 
+            | 98 
+            | <a target="_blank" href="http://www2.lifl.fr/~kucherov/RECOMB99/" class="footerlinkhome">99</a> 
+            | <a target="_blank" href="http://recomb2000.ims.u-tokyo.ac.jp/" class="footerlinkhome">00</a> 
+            | <a target="_blank" href="http://bioinf.mpi-sb.mpg.de/conferences/recomb2001/WWW/Welcome.html" class="footerlinkhome">01</a> 
+            | <a target="_blank" href="http://www.erpland.org/recomb/" class="footerlinkhome">02</a> 
+            | <a target="_blank" href="http://www-recomb2003.molgen.mpg.de/" class="footerlinkhome">03</a> 
+            | <a target="_blank" href="http://recomb04.sdsc.edu/" class="footerlinkhome">04</a> 
+            | <a target="_blank" href="http://www.broad.mit.edu/events/recomb2005/" class="footerlinkhome">05</a> 
+            | <a target="_blank" href="http://recomb06.dei.unipd.it/" class="footerlinkhome">06</a>
+            | <a target="_blank" href="http://www.qb3.org/recomb07/index.html" class="footerlinkhome">07</a> </td>
+  </tr>
+
+
+  <tr> 
+    <td colspan="3" align="center">
+      <table cellspacing=0 cellpadding=5 border=0><tr><td colspan="3" align="center">
+        <p class="footertext" style="color:#000000;">&copy; Copyright 2006-07 National University of Singapore. All Rights Reserved.<br>
+        Conference email address: <a href="mailto:recomb08@comp.nus.edu.sg">recomb08@comp.nus.edu.sg</a><br>
+        Page Maintained by: <a href="mailto:webtech@comp.nus.edu.sg">webtech</a></p>
+      </td></tr></table>
+    </td>
+  </tr>
+
+<tr> 
+    <td colspan="3" style="background-image: url(/_images/grey_onepx.gif);"><img src="/_images/spacer.gif" alt="" width="1" height="1"></td>
+  </tr>
+
+
+</table>
+
+
+<script async type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=13&cb=1030798473"></script>
+</body>
+</html>

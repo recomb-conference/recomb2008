@@ -1,0 +1,391 @@
+<html>
+<head>
+<title>RECOMB2008 - LIST OF ACCECPTED PAPERS</title>
+<link href="css/nusstyles.css" rel="styleSheet" type="text/css">
+<link href="css/newlookstyles.css" rel="styleSheet" type="text/css">
+
+<style type="text/css">
+
+.new_item_sign {
+	color: #FF0000;
+}
+
+
+td.bold_cell {
+font-weight: bold;
+}
+
+td.section_underline_cell {
+background-color: #000000;
+}
+.style1 {color: #FFFFFF}
+
+</style>
+
+<script type="text/javascript">
+
+/* SSI to load the menu generator (DO NOT CHANGE) */
+
+function add_menuitem(sectkey, url, title, level) {
+
+var n = menuitems.length;
+
+menuitems[n] = new Array();
+menuitems[n][0] = sectkey;
+menuitems[n][1] = url;
+menuitems[n][2] = title;
+menuitems[n][3] = level;
+
+}
+
+function do_sect_menu(sectkey) {
+
+    var tablepad = 0;
+    var border = 0;
+
+    var document_write = "<table cellspacing=0 cellpadding=" + tablepad + " border=" + border + " width=\"100%\">";
+
+    var n = menuitems.length;
+    for (var i = 0; i < n; i++) {
+
+	var indent = 1;
+	var leftrightpad = tablepad;
+	var cell = 162;
+
+	document_write += "<tr>";
+
+	for (var j = 0; j < menuitems[i][3]; j++) {
+	    document_write += "<td width=" + cell + ">";
+	    cell -= 2 * leftrightpad;
+	    leftrightpad = 0;
+	    document_write += "<table cellspacing=0 cellpadding=0 border=" + border + " width=162><tr>";
+	    cell -= indent;
+	}
+
+	document_write += "<td valign=middle height=25 background=\"images/but_bg3.gif\" style=\"background-repeat: repeat-x\">";
+
+	if (menuitems[i][0] != "" && sectkey == menuitems[i][0]) {
+	    if (cell < 157) {
+		document_write += "<span class=\"fortext5b\">" + menuitems[i][2] + "</span>";
+	    }
+	    else if (cell < 160) {
+		document_write += "<span class=\"fortext4b\">" + menuitems[i][2] + "</span>";
+	    }
+	    else {
+		document_write += "<span class=\"fortext2\">" + menuitems[i][2] + "</span>";
+	    }
+	} else if (menuitems[i][1] != "") {
+	    if (cell < 157) {
+		document_write += "<a href=\"" + menuitems[i][1] + "\" class=\"fortext5\">" + menuitems[i][2] + "</a>";
+	    }
+	    else if (cell < 160) {
+		document_write += "<a href=\"" + menuitems[i][1] + "\" class=\"fortext4\">" + menuitems[i][2] + "</a>";
+	    }
+	    else {
+		document_write += "<a href=\"" + menuitems[i][1] + "\" class=\"fortext\">" + menuitems[i][2] + "</a>";
+            }
+	} else {
+            if (cell < 160) {
+		document_write += "<span class=\"fortext4c\">" + menuitems[i][2] + "</span>";
+	    }
+	    else {
+                document_write += "<span class=\"fortext3\">" + menuitems[i][2] + "</span>";
+	    }
+	}
+
+	document_write += "</td>";
+
+	for (var j = 0; j < menuitems[i][3]; j++) {
+	    document_write += "</tr></table></td>";
+	}
+
+
+	document_write += "</tr>";
+
+    }
+
+document_write += "</table>";
+
+document.write(document_write);
+
+}
+
+
+/* SSI to load the "Links in ..." definitions */
+
+var menuitems = new Array();
+
+add_menuitem("introduction", "index.html", "INTRODUCTION", 0);
+add_menuitem("news", "news.html", "NEWS: RECOMB & GENOME<br>&nbsp; RESEARCH TEAM UP", 0);
+add_menuitem("sponsors", "sponsors.html", "ORGANIZERS AND SPONSORS", 0);
+add_menuitem("speakers", "speakers.html", "KEYNOTE SPEAKERS", 0);
+add_menuitem("committees", "committees.html", "COMMITTEES", 0);
+add_menuitem("cfp", "cfp.html", "CALL FOR PAPERS", 0);
+add_menuitem("submission", "submission.html", "PAPER SUBMISSION", 0);
+add_menuitem("accepted", "accepted.html", "LIST OF ACCEPTED PAPERS", 0);
+add_menuitem("poster", "poster.html", "CALL FOR POSTERS", 0);
+add_menuitem("postersubmission", "postersubmission.html", "POSTER SUBMISSION", 0);
+add_menuitem("acceptedposters", "accp_poster.html", "LIST OF ACCEPTED POSTERS", 0);
+add_menuitem("photos", "http://av.comp.nus.edu.sg/coppermine/thumbnails.php?album=160", "PHOTOS", 0);
+add_menuitem("programme", "programme.html", "PROGRAMME", 0);
+add_menuitem("registration", "registration.html", "REGISTRATION", 0);
+add_menuitem("visa", "visa.html", "VISA INFORMATION", 0);
+add_menuitem("travel", "travel.html", "TRAVEL GRANTS", 0);
+add_menuitem("accommodation", "accommodation.html", "ACCOMMODATION", 0);
+add_menuitem("links", "links.html", "LINKS", 0);
+add_menuitem("singapore", "singapore.html", "UNIQUELY SINGAPORE", 0);
+
+
+
+
+/* Marker of the current page to be shown as highlighted in "Links in ..." menu */
+var sectkey = "accepted";
+
+</script>
+</head>
+<body>
+
+<table width="750" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" style="width:750px;table-layout:fixed">
+
+  <tr> 
+    <td width="1" rowspan=7 background="_images/grey_onepx.gif"><img src="_images/spacer.gif" width="1" height="1"></td>
+    <td width="740">
+    </td>
+    <td valign=bottom width="9" bgcolor="#F2F2F2"><img src="_images/spacer.gif" width="9" height="1"></td>
+  </tr>
+
+  <tr> 
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      </table></td>
+    <td rowspan="6" valign="top" background="_images/bg_right.gif"><img src="_images/spacer.gif" width="9" height="1"></td>
+  </tr>
+
+
+  <tr> 
+    <td valign="top">
+
+<tr>
+  <td>
+<table width="740" height="150" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="571" height="150" align="left" valign="top"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="571" height="150">
+          <param name="movie" value="gif/banner.swf" />
+          <param name="quality" value="high" />
+          <embed src="gif/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="571" height="150"></embed>
+        </object></td>
+        <td width="166" height="150" align="center" valign="bottom"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="166" height="150">
+          <param name="movie" value="gif/right.swf" />
+          <param name="quality" value="high" />
+          <embed src="gif/right.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="166" height="150"></embed>
+        </object></td>
+      </tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td><table cellspacing=0 cellpadding=0 border=0>
+<tr>
+
+
+<td valign=top width=168><table cellspacing=0 cellpadding=0 border=0 width=168>
+
+
+<tr>
+<td>&nbsp;</td>
+</tr>
+
+
+<!-- begin "Links in ..." MENU -->
+<tr>
+<td><table border=0 cellspacing=0 cellpadding=0 width=165>
+<tr>
+<td><div class="box4"><strong>RECOMB 2008</strong></div></td>
+</tr>
+</table></td>
+</tr>
+
+<tr>
+<td><table cellspacing=0 cellpadding=0 border=0 width="162">
+
+<tr>
+<td width=162 style="background-color: #FFFFFF;"><script type="text/javascript"><!--
+do_sect_menu(sectkey);
+//--></script></td>
+</tr>
+
+</table></td>
+
+</tr>
+
+<!-- end "Links in ..." MENU -->
+
+<tr>
+<td>&nbsp;</td>
+</tr>
+
+</table></td>
+
+<td valign=top width="100%" style="padding: 15px;">
+
+
+<table cellspacing=0 cellpadding=0 border=0 width="100%">
+  <tr>
+    <td align=center>
+<table cellspacing=0 cellpadding=0 border=0>
+  <tr>
+    <td colspan="3"><h1>LIST OF ACCEPTED PAPERS</h1>    </td>
+  </tr>
+</table>    </td>
+  </tr>
+</table>
+
+<ol>
+  <li>Michael Kertesz, John Rinn, Adam Adler, Howard Chang and Eran Segal. &ldquo;<strong>A Method for  High-Throughput Measurement of RNA Secondary Structure</strong>&quot;<br>
+    <br>
+  </li>
+  <li>Ritendra       Datta and Marshall Bern. &ldquo;<strong>Spectrum       Fusion: Using Multiple Mass Spectra for De Novo Peptide Sequencing</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Jing       Zhang, Xin Gao, Jinbo Xu and Ming Li. &ldquo;<strong>Rapid and Accurate Side Chain Prediction with Local       Backbone Information</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Jason       Flannick, Antal Novak, Chuong B. Do, Balaji S. Srinivasan and Serafim       Batzoglou. &ldquo;<strong>Automatic Parameter       Learning for Multiple Network Alignment</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Andreas       Sundquist, Eugene Fratkin, Chuong B. Do and Serafim Batzoglou. &ldquo;<strong>Effect of Genetic Divergence in       Identifying Ancestral Origin using HAPAA</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Leo       van Iersel, Judith Keijsper, Steven Kelk, Leen Stougie, Ferry Hagen and       Teun Boekhout. &ldquo;<strong>Constructing       level-2 phylogenetic networks from triplets</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Caroline       C. Friedel, Jan Krumsiek and Ralf Zimmer. &ldquo;<strong>Bootstrapping the interactome: unsupervised identification of       protein complexes in yeast</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Igor       Ulitsky, Richard M. Karp and Ron Shamir. &ldquo;<strong>Detecting disease-specific disregulated pathways via analysis of       clinical expression profiles</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Yu       Lin, Yaotao Qiao, Chungong Yu, Shiwei Sun and Dongbo Bu. &ldquo;<strong>A Fragmentation Event Model for       Peptide Identification by Mass Spectrometry</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Oliver       Stegle, Anitha Kannan, Richard Durbin and John Winn. &ldquo;<strong>Accounting for Non-Genetic Factors Improves the Power of eQTL       Studies</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Yu       Zhang, Giltae Song, Tomas Vinar, Eric Green, Adam Siepel and Webb Miller.       &ldquo;<strong>Reconstructing the evolutionary       history of complex human gene clusters</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Christophe       Dessimoz, Daniel Margadant and Gaston Gonnet. &ldquo;<strong>Lateral Gene Transfer Detection Using Pairwise Evolutionary       Distances in a Statistical Framework</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Bin Ma       and Xiaoming Sun. &ldquo;<strong>More Efficient       Algorithms for Closest String and Substring Problems</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Wei       Zheng, Alan Friedman and Chris Bailey-Kellogg. &ldquo;<strong>Algorithms for Joint Optimization of Stability and Diversity in       Planning Combinatorial Libraries of Chimeric Proteins</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Sourav       Chatterji, Ichitaro Yamazaki, Zhaojun Bai and Jonathan Eisen. &ldquo;<strong>CompostBin: A DNA composition-based       algorithm for binning environmental shotgun reads</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Yong       Li, Randy Arnold, Yixue Li, Predrag Radivojac, Quanhu Sheng and Haixu       Tang. &ldquo;<strong>A Bayesian approach to       protein inference problem in shotgun proteomics</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Tien-ho       Lin, Pradipta Ray, Geir K. Sandve, Selen Uguroglu and Eric Xing. &ldquo;<strong>BayCis: A Bayesian hierarchical HMM       for cis-regulatory module decoding in metazoan genomes</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Yanxin       Shi, Itamar Simon, Tom Mitchell and Ziv Bar-Joseph. &ldquo;<strong>A Combined Expression-Interaction Model for Inferring the Temporal       Activity of Transcription Factors</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Sriram       Sankararaman, Gad Kimmel, Eran Halperin and Michael I. Jordan. &ldquo;<strong>A Switching HMM for Inferring       Ancestries in Admixed Populations</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Nuno       Bandeira, Julio Ng, Dario Meluzzi, Roger Linington, Pieter Dorrestein and       Pavel Pevzner. &ldquo;<strong>De Novo Sequencing       of Nonribosomal Peptides</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Eleazar       Eskin. &ldquo;<strong>Increasing Power in       Association Studies by using Linkage Disequilibrium Structure and       Molecular Function as Prior Information</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Mustafa Kirac and Gultekin Ozsoyoglu. &ldquo;<strong>Protein Function Prediction based on  Patterns in Biological Networks</strong>&rdquo;<br>
+    <br>
+    </li>
+  <li>Michael       Baym, Chris Bakal, Norbert Perrimon and Bonnie Berger. &ldquo;<strong>High-Resolution Modeling of Cellular       Signaling Networks</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Sivan       Bercovici, Dan Geiger, Liran Shlush, Karl Skorecki and Alan Templeton. &ldquo;<strong>Panel Construction for Mapping in       Admixed Populations via Expected Mutual Information</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Sebastian       Boecker, Katharina Jahn, Julia Mixtacki and Jens Stoye. &ldquo;<strong>Computation of Median Gene Clusters</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Fuhui       Long, Hanchuan Peng, Xiao Liu, Stuart Kim and Eugene Myers. &ldquo;<strong>Automatic Recognition of Cells (ARC)       for 3D Images of C. elegans</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Gordon       Burleigh, Oliver Eulenstein, Mukul Bansal and Andre Wehe. &ldquo;<strong>Locating Multiple Gene Duplications       Through Reconciled Trees</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Michael       Sammeth, Gabriel Valiente and Roderic Guigo. &ldquo;<strong>Bubbles, blobs and galls: Alternative Splicing Events of Dimension       k in Splicing Graphs</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Michael       Mehan, Juan Nunez-Iglesias, Mrinal Kalakrishnan, Michael Waterman and       Jasmine Zhou. &ldquo;<strong>An Integrative       Network Approach To Map the Transcriptome to the Phenome</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Rune       Lyngsoe, Yun Song and Jotun Hein. &ldquo;<strong>Accurate       Computation of Likelihoods in the Coalescent with Recombination via       Parsimony</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Raluca       Gordan, Leelavati Narlikar and Alexander Hartemink. &ldquo;<strong>A fast, alignment-free, conservation-based method for       transcription factor binding site discovery</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Maxim       Kalaev, Vineet Bafna and Roded Sharan. &ldquo;<strong>Fast and Accurate Alignment of Multiple Protein Networks</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Delbert       Dueck, Brendan Frey, Nebojsa Jojic, Vladimir Jojic, Guri Giaever, Andrew       Emili, Gabe Musso and Robert Hegele. &ldquo;<strong>Constructing       Treatment Portfolios Using Affinity Propagation</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>Paul       Medvedev and Michael Brudno. &ldquo;<strong>Ab       Initio Short Read Assembly With Mate Pair Data</strong>&rdquo;<br>
+    <br>
+  </li>
+  <li>John       Hawkins and Timothy Bailey. &ldquo;<strong>The       Statistical Power of Phylogenetic Motif Models</strong>&rdquo;<br>
+  </li>
+  </ol>
+<p><a href="index.html">Back to HOME</a></p>
+<p align="right">Last Modified on: 03 January 2008</p>
+
+</td>
+  </tr>
+  <tr> 
+    <td colspan="3" align="center" class="footerlinkhome" bgcolor="#0033CC">
+             <a target="_blank" href="http://www.informatik.uni-trier.de/~ley/db/conf/recomb/recomb1997.html" class="footerlinkhome">97</a> 
+            | 98 
+            | <a target="_blank" href="http://www2.lifl.fr/~kucherov/RECOMB99/" class="footerlinkhome">99</a> 
+            | <a target="_blank" href="http://recomb2000.ims.u-tokyo.ac.jp/" class="footerlinkhome">00</a> 
+            | <a target="_blank" href="http://bioinf.mpi-sb.mpg.de/conferences/recomb2001/WWW/Welcome.html" class="footerlinkhome">01</a> 
+            | <a target="_blank" href="http://www.erpland.org/recomb/" class="footerlinkhome">02</a> 
+            | <a target="_blank" href="http://www-recomb2003.molgen.mpg.de/" class="footerlinkhome">03</a> 
+            | <a target="_blank" href="http://recomb04.sdsc.edu/" class="footerlinkhome">04</a> 
+            | <a target="_blank" href="http://www.broad.mit.edu/events/recomb2005/" class="footerlinkhome">05</a> 
+            | <a target="_blank" href="http://recomb06.dei.unipd.it/" class="footerlinkhome">06</a>
+            | <a target="_blank" href="http://www.qb3.org/recomb07/index.html" class="footerlinkhome">07</a> </td>
+  </tr>
+
+
+  <tr> 
+    <td colspan="3" align="center">
+      <table cellspacing=0 cellpadding=5 border=0><tr><td colspan="3" align="center">
+        <p class="footertext" style="color:#000000;">&copy; Copyright 2006-07 National University of Singapore. All Rights Reserved.<br>
+        Conference email address: <a href="mailto:recomb08@comp.nus.edu.sg">recomb08@comp.nus.edu.sg</a><br>
+        Page Maintained by: <a href="mailto:webtech@comp.nus.edu.sg">webtech</a></p>
+      </td></tr></table>
+    </td>
+  </tr>
+
+<tr> 
+    <td colspan="3" style="background-image: url(/_images/grey_onepx.gif);"><img src="/_images/spacer.gif" alt="" width="1" height="1"></td>
+  </tr>
+
+
+</table>
+
+
+<script async type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=5&cb=1532369072"></script>
+</body>
+</html>
+
